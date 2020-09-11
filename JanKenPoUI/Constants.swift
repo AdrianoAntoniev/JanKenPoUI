@@ -12,6 +12,7 @@ struct Measures {
     static let NORMAL_SIZE_SCALE = 1.0
     static let GROWN_SIZE_SCALE = 1.7
     static let DURATION_OF_ANIMATION = 1.5
+    static let DELAY_TIME = 0.0
 }
 
 struct Texts {
@@ -20,9 +21,6 @@ struct Texts {
     static let WIN = "You win!"
 }
 
-enum Hands: String {
-    case ROCK = "✊"
-    case PAPER = "🖐"
-    case SCISSORS = "✌️"
+struct K {
+    static let MAIN_SCREEN_SEGUE = "MainScreen"
 }
-
